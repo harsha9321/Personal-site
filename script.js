@@ -9,6 +9,7 @@
   const navToggle = document.getElementById("navToggle");
   const navLinks = document.getElementById("navLinks");
   const themeToggle = document.getElementById("themeToggle");
+  const heroScroll = document.querySelector(".hero__scroll");
 
   // ---- Theme (persisted, respects system preference) ----
   const root = document.documentElement;
@@ -41,6 +42,7 @@
   window.addEventListener("scroll", function () {
     const y = window.scrollY;
     nav.classList.toggle("scrolled", y > 20);
+    if (heroScroll) heroScroll.classList.toggle("is-hidden", y > 10);
     if (y > lastY && y > 200 && !navLinks.classList.contains("open")) {
       nav.classList.add("hidden");
     } else {

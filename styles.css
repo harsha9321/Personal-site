@@ -247,6 +247,12 @@ a { color: var(--accent); text-decoration: none; }
   width: 26px; height: 44px;
   border: 2px solid var(--text-muted);
   border-radius: 14px;
+  opacity: 1;
+  transition: opacity 0.4s ease;
+}
+.hero__scroll.is-hidden {
+  opacity: 0;
+  pointer-events: none;
 }
 .hero__scroll span {
   position: absolute;
