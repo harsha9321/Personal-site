@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sreeharsha Dandamudi — Senior Application Developer</title>
+  <meta name="description" content="Sreeharsha (Harsha) Dandamudi — Senior Application Developer specializing in event-driven microservices, REST APIs, and cloud infrastructure for the financial services industry." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Navigation -->
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#hero" class="nav__brand">SD<span>.</span></a>
+      <nav class="nav__links" id="navLinks">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+          <svg class="icon-sun" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+          <svg class="icon-moon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+        </button>
+        <button class="nav__toggle" id="navToggle" aria-label="Toggle menu">
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="hero">
+    <div class="hero__bg" aria-hidden="true"></div>
+    <div class="container hero__inner">
+      <div class="hero__content">
+        <p class="hero__eyebrow">Hi, my name is</p>
+        <h1 class="hero__name">Sreeharsha Dandamudi.</h1>
+        <h2 class="hero__tagline">I build resilient back-end systems.</h2>
+        <p class="hero__desc">
+          I'm a Senior Application Developer with 7+ years of experience designing
+          event-driven microservices, REST APIs, and cloud infrastructure for the
+          financial services industry. Currently engineering cash-settlement and
+          payment platforms at <strong>Barclays</strong>.
+        </p>
+        <div class="hero__cta">
+          <a href="#experience" class="btn btn--primary">View My Experience</a>
+          <a href="#contact" class="btn btn--ghost">Get In Touch</a>
+        </div>
+      </div>
+      <div class="hero__photo">
+        <div class="hero__photo-frame">
+          <img src="DSC_1535.JPG" alt="Sreeharsha Dandamudi" loading="lazy" />
+        </div>
+      </div>
+    </div>
+    <a href="#about" class="hero__scroll" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <main>
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">01.</span> About Me</h2>
+        <div class="about">
+          <div class="about__text">
+            <p>
+              I'm a software engineer based in New Jersey who enjoys building the
+              systems that keep money moving. Over the past several years I've worked
+              across the financial services space — from <strong>Broadridge</strong> and
+              <strong>PGIM</strong> to my current role at <strong>Barclays</strong> —
+              shipping production back-end services that need to be correct, observable,
+              and highly available.
+            </p>
+            <p>
+              My focus is on <strong>event-driven architecture</strong> and
+              <strong>API platform engineering</strong>: stitching together messaging
+              middleware like Kafka, Solace, and IBM MQ, designing clean REST APIs, and
+              automating the CI/CD pipelines that get them safely into production.
+            </p>
+            <p>Here are a few technologies I've been working with recently:</p>
+            <ul class="about__tech">
+              <li>Java &amp; Spring Boot</li>
+              <li>Apache Camel</li>
+              <li>Apache Kafka / Solace / IBM MQ</li>
+              <li>C# &amp; ASP.NET Core</li>
+              <li>AWS</li>
+              <li>Jenkins &amp; GitLab CI</li>
+            </ul>
+          </div>
+          <div class="about__stats">
+            <div class="stat">
+              <span class="stat__num">7+</span>
+              <span class="stat__label">Years building software</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">4</span>
+              <span class="stat__label">Financial firms</span>
+            </div>
+            <div class="stat">
+              <span class="stat__num">3.49</span>
+              <span class="stat__label">GPA, B.S. Computer Science</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section section--alt" id="skills">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">02.</span> Technical Skills</h2>
+        <div class="skills">
+          <div class="skill-card">
+            <h3>Languages</h3>
+            <ul>
+              <li>Java</li>
+              <li>C#</li>
+              <li>Node.js</li>
+              <li>JavaScript</li>
+              <li>HTML &amp; CSS</li>
+              <li>T-SQL</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Frameworks &amp; Libraries</h3>
+            <ul>
+              <li>Spring Boot</li>
+              <li>ASP.NET Core</li>
+              <li>Express.js</li>
+              <li>Apache Camel</li>
+              <li>Apache Kafka</li>
+              <li>IBM MQ</li>
+              <li>Thymeleaf</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Cloud &amp; DevOps</h3>
+            <ul>
+              <li>AWS (Lambda, API Gateway, RDS)</li>
+              <li>Jenkins CI/CD</li>
+              <li>GitLab CI</li>
+              <li>Git</li>
+            </ul>
+          </div>
+          <div class="skill-card">
+            <h3>Data &amp; Tooling</h3>
+            <ul>
+              <li>SQL Server (T-SQL)</li>
+              <li>DynamoDB</li>
+              <li>MongoDB</li>
+              <li>IntelliJ IDEA</li>
+              <li>VS Code</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">03.</span> Where I've Worked</h2>
+        <div class="timeline">
+
+          <article class="tl-item">
+            <div class="tl-marker"></div>
+            <div class="tl-content">
+              <div class="tl-head">
+                <h3>Senior Application Developer</h3>
+                <span class="tl-company">Barclays · Whippany, NJ</span>
+              </div>
+              <span class="tl-date">Sept 2022 — Present</span>
+              <ul class="tl-points">
+                <li>Designed and developed event-driven microservices supporting cash settlements and payment generation within the investment banking space.</li>
+                <li>Configured services to integrate multiple middleware technologies — Kafka, Solace, and IBM MQ — using Apache Camel.</li>
+                <li>Partnered with product ownership to ensure data-format standards were consistently met across services.</li>
+              </ul>
+              <div class="tl-tags"><span>Java</span><span>Spring Boot</span><span>Apache Camel</span><span>Kafka</span><span>Solace</span><span>IBM MQ</span></div>
+            </div>
+          </article>
+
+          <article class="tl-item">
+            <div class="tl-marker"></div>
+            <div class="tl-content">
+              <div class="tl-head">
+                <h3>API Platform Engineer</h3>
+                <span class="tl-company">Barclays · Whippany, NJ</span>
+              </div>
+              <span class="tl-date">Apr 2021 — Sept 2022</span>
+              <ul class="tl-points">
+                <li>Built internal workflows to consolidate and centralize all API governance requests (Java, Spring, Thymeleaf).</li>
+                <li>Developed back-end REST APIs to support core service functionality.</li>
+                <li>Automated governance processes, reducing the time an API spent moving through the governance pipeline.</li>
+                <li>Created shared UI components to cut repeated code and promote consistent development practices.</li>
+                <li>Maintained and managed AWS infrastructure to keep services highly available.</li>
+              </ul>
+              <div class="tl-tags"><span>Java</span><span>Spring</span><span>Thymeleaf</span><span>REST</span><span>AWS</span></div>
+            </div>
+          </article>
+
+          <article class="tl-item">
+            <div class="tl-marker"></div>
+            <div class="tl-content">
+              <div class="tl-head">
+                <h3>Systems Development Specialist</h3>
+                <span class="tl-company">PGIM (Prudential Global Investment Management) · Newark, NJ</span>
+              </div>
+              <span class="tl-date">Dec 2020 — Apr 2021</span>
+              <ul class="tl-points">
+                <li>Delivered systems development work supporting investment-management applications.</li>
+              </ul>
+              <div class="tl-tags"><span>Backend</span><span>APIs</span></div>
+            </div>
+          </article>
+
+          <article class="tl-item">
+            <div class="tl-marker"></div>
+            <div class="tl-content">
+              <div class="tl-head">
+                <h3>Associate Programmer Analyst</h3>
+                <span class="tl-company">Broadridge Financial Solutions · Newark, NJ</span>
+              </div>
+              <span class="tl-date">June 2018 — Nov 2020</span>
+              <ul class="tl-points">
+                <li>Developed a rules-management REST API enabling users to create, manage, and publish business rules (C#, ASP.NET Core).</li>
+                <li>Wrote meaningful unit tests to validate individual API components and maintain high code coverage.</li>
+                <li>Generated reusable SQL scripts to automate database deployments and authored stored procedures invoked by applications (T-SQL).</li>
+                <li>Spearheaded the team's CI/CD pipelines to automate building, testing, and deployment — reducing manual effort and deployment times.</li>
+                <li>Implemented REST APIs that mimicked existing functionality to test code-less UI tools without exposing data or code (Node.js, Express.js).</li>
+                <li>Built POCs exploring the benefits of the AWS serverless model (Lambda, API Gateway, RDS).</li>
+                <li>Developed Windows batch scripts to assist migrating legacy applications to new hardware.</li>
+              </ul>
+              <div class="tl-tags"><span>C#</span><span>ASP.NET Core</span><span>T-SQL</span><span>Node.js</span><span>Express.js</span><span>AWS Lambda</span></div>
+            </div>
+          </article>
+
+          <article class="tl-item">
+            <div class="tl-marker"></div>
+            <div class="tl-content">
+              <div class="tl-head">
+                <h3>Desktop Technician</h3>
+                <span class="tl-company">Rutgers University, Dept. of Continuing Education · New Brunswick, NJ</span>
+              </div>
+              <span class="tl-date">June 2016 — May 2018</span>
+              <ul class="tl-points">
+                <li>Resolved a wide variety of hardware, software, and network issues in person, by phone, and over remote desktop.</li>
+                <li>Managed and maintained an accurate network map and a detailed inventory of all department assets.</li>
+                <li>Deployed and maintained all user computers (PC/Mac) and network assets such as printers and scanners.</li>
+              </ul>
+              <div class="tl-tags"><span>Support</span><span>Networking</span><span>Hardware</span></div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section section--alt" id="education">
+      <div class="container">
+        <h2 class="section__title"><span class="section__num">04.</span> Education</h2>
+        <div class="edu-card">
+          <div class="edu-card__icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>
+          </div>
+          <div class="edu-card__body">
+            <h3>Rutgers University</h3>
+            <p class="edu-card__degree">Bachelor of Science in Computer Science · 2018</p>
+            <p class="edu-card__meta">GPA: 3.49 / 4.0</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section section--contact" id="contact">
+      <div class="container">
+        <p class="contact__eyebrow"><span class="section__num">05.</span> What's Next?</p>
+        <h2 class="contact__title">Get In Touch</h2>
+        <p class="contact__desc">
+          I'm always happy to talk about back-end engineering, distributed systems, or a
+          new opportunity. Drop me a line and I'll get back to you.
+        </p>
+        <a href="mailto:[redacted]" class="btn btn--primary btn--lg">Say Hello</a>
+        <div class="contact__links">
+          <a href="mailto:[redacted]" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <span>[redacted]</span>
+          </a>
+          <a href="tel:[redacted]" aria-label="Phone">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>[redacted]</span>
+          </a>
+          <a href="https://www.linkedin.com/in/sreeharsha-dandamudi-3991bb99/" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M19 0h-14c-2.76 0-5 2.24-5 5v14c0 2.76 2.24 5 5 5h14c2.76 0 5-2.24 5-5v-14c0-2.76-2.24-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.27c-.97 0-1.75-.79-1.75-1.76s.78-1.75 1.75-1.75 1.75.79 1.75 1.75-.78 1.76-1.75 1.76zm13.5 12.27h-3v-5.6c0-1.34-.03-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.97v5.69h-3v-11h2.88v1.5h.04c.4-.76 1.38-1.56 2.84-1.56 3.04 0 3.6 2 3.6 4.59v6.47z"/></svg>
+            <span>LinkedIn</span>
+          </a>
+          <a href="https://github.com/harsha9321" target="_blank" rel="noopener" aria-label="GitHub">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor"><path d="M12 0c-6.63 0-12 5.37-12 12 0 5.3 3.44 9.8 8.21 11.39.6.11.82-.26.82-.58 0-.29-.01-1.04-.02-2.05-3.34.73-4.04-1.61-4.04-1.61-.55-1.39-1.33-1.76-1.33-1.76-1.09-.74.08-.73.08-.73 1.2.09 1.84 1.24 1.84 1.24 1.07 1.83 2.81 1.3 3.49.99.11-.78.42-1.3.76-1.6-2.67-.3-5.47-1.33-5.47-5.93 0-1.31.47-2.38 1.24-3.22-.13-.3-.54-1.52.11-3.18 0 0 1.01-.32 3.3 1.23a11.5 11.5 0 0 1 3-.4c1.02 0 2.05.14 3 .4 2.29-1.55 3.3-1.23 3.3-1.23.65 1.66.24 2.88.12 3.18.77.84 1.24 1.91 1.24 3.22 0 4.61-2.81 5.62-5.49 5.92.43.37.81 1.1.81 2.22 0 1.61-.01 2.9-.01 3.29 0 .32.21.7.82.58a12 12 0 0 0 8.2-11.39c0-6.63-5.37-12-12-12z"/></svg>
+            <span>GitHub</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Designed &amp; built by Sreeharsha Dandamudi</p>
+      <p class="footer__meta">&copy; <span id="year"></span> · New Jersey, USA</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
