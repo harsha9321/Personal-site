@@ -49,26 +49,6 @@
     lastY = y;
   }, { passive: true });
 
-  // ---- Scroll reveal animations ----
-  const revealEls = document.querySelectorAll(
-    ".section__title, .about__text, .about__stats, .skill-card, .tl-item, .edu-card, .contact__title, .contact__desc, .contact__links, .hero__content, .hero__photo"
-  );
-  revealEls.forEach(function (el) { el.classList.add("reveal"); });
-
-  if ("IntersectionObserver" in window) {
-    const observer = new IntersectionObserver(function (entries) {
-      entries.forEach(function (entry) {
-        if (entry.isIntersecting) {
-          entry.target.classList.add("visible");
-          observer.unobserve(entry.target);
-        }
-      });
-    }, { threshold: 0.12 });
-    revealEls.forEach(function (el) { observer.observe(el); });
-  } else {
-    revealEls.forEach(function (el) { el.classList.add("visible"); });
-  }
-
   // ---- Current year ----
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
