@@ -34,4 +34,4 @@ python3 -m http.server 8000
 | `index.html` | Page markup and content |
 | `styles.css` | Styling, theme variables, responsive layout |
 | `script.js` | Theme toggle, mobile nav, scroll animations |
-| `DSC_1535.JPG` | Profile photo |
+| `profile.jpg` | Profile photo |
